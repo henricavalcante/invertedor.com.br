@@ -1,0 +1,90 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Invertedor de Link</title>
+    <link href="../../Content/Site.css" rel="stylesheet" type="text/css" />
+    <meta name="google-site-verification" content="Y7sqA7KWoh7Pw16xNfLmWFxNP5MpOHFV3DAzVcKWqV8" />
+</head>
+
+<body>
+    <div class="page">
+
+      
+
+        <div id="main">
+            <div id="header">
+            
+                <h1>Invertedor.com.br</h1>
+              <div>
+                  <script type="text/javascript"><!--
+                                      google_ad_client = "ca-pub-1356931097217884";
+                                      /* BannerSuperior */
+                                      google_ad_slot = "6072940386";
+                                      google_ad_width = 728;
+                                      google_ad_height = 90;
+                    //-->
+                    </script>
+                    <script type="text/javascript"
+                    src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+                    </script>
+              
+              </div>
+   
+<% using(Html.BeginForm("Index", "Inverter"))
+       {
+       %>
+            
+   <p>Insira um link protegido abaixo e clique no botão 'Inverter'.</p>
+
+   <center> 
+       <input type="text" name="id" onfocus="javascript: if(this.value == 'http://'){this.value = ''};"  onblur="javascript: if(this.value == ''){this.value = 'http://'};" value="http://"/>
+                    
+       <br /><br />
+       <input type="submit" name="Inverter" value="Inverter" />
+</center>
+
+       <%
+       } %>
+       <br />
+       <br />
+
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+            <div>
+            <script type="text/javascript"><!--
+                google_ad_client = "ca-pub-1356931097217884";
+                /* BannerInferior */
+                google_ad_slot = "6720708379";
+                google_ad_width = 728;
+                google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+            </div>
+            <div id="footer">
+            Use, Abuse e Divulgue - <a href="http://buggalu.com">buggalu.com</a> - @henricavalcante - Beta 0.4 - <%= Html.ActionLink("Changelog", "Index", "Changelog")%>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-25536682-1']);
+        _gaq.push(['_setDomainName', 'invertedor.com.br']);
+        _gaq.push(['_setAllowHash', false]);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+</script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+C:\P R O J E T O S\invertedor.com.br\invertedor.com.br\TestesUnitarios\obj\Debug\ResolveAssemblyReference.cache
+C:\P R O J E T O S\invertedor.com.br\invertedor.com.br\TestesUnitarios\bin\Debug\TestesUnitarios.dll
+C:\P R O J E T O S\invertedor.com.br\invertedor.com.br\TestesUnitarios\bin\Debug\TestesUnitarios.pdb
+C:\P R O J E T O S\invertedor.com.br\invertedor.com.br\TestesUnitarios\bin\Debug\invertedor.com.br.dll
+C:\P R O J E T O S\invertedor.com.br\invertedor.com.br\TestesUnitarios\bin\Debug\invertedor.com.br.pdb
+C:\P R O J E T O S\invertedor.com.br\invertedor.com.br\TestesUnitarios\obj\Debug\TestesUnitarios.dll
+C:\P R O J E T O S\invertedor.com.br\invertedor.com.br\TestesUnitarios\obj\Debug\TestesUnitarios.pdb

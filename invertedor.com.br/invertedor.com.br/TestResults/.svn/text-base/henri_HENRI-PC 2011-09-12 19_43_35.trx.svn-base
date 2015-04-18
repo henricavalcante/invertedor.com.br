@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="78e99311-7355-4b99-8b48-b31ce4a86623" name="henri@HENRI-PC 2011-09-12 19:43:35" runUser="henri-PC\henri" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ee264f6e-f394-4bfe-ab1f-e6bcb46f86ba">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="henri_HENRI-PC 2011-09-12 19_43_35">
+      <DeploymentItem filename="C:\P R O J E T O S\invertedor.com.br\invertedor.com.br\invertedor.com.br\bin\invertedor.com.br.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-09-12T19:43:35.2801627-03:00" queuing="2011-09-12T19:43:35.7411891-03:00" start="2011-09-12T19:43:35.8121931-03:00" finish="2011-09-12T19:43:37.3512812-03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="6" executed="6" passed="5" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestarParImparInvertido" storage="c:\p r o j e t o s\invertedor.com.br\invertedor.com.br\testesunitarios\bin\debug\testesunitarios.dll" id="572c31f2-b4ae-52e7-e468-b7d27e31da3e">
+      <Execution id="baabad96-1cc2-4db2-83bf-f1539909fb30" />
+      <TestMethod codeBase="C:/P R O J E T O S/invertedor.com.br/invertedor.com.br/TestesUnitarios/bin/Debug/TestesUnitarios.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestesUnitarios.TestarMetodosDeDescriptografia, TestesUnitarios, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestarParImparInvertido" />
+    </UnitTest>
+    <UnitTest name="TestarMeioInvertido" storage="c:\p r o j e t o s\invertedor.com.br\invertedor.com.br\testesunitarios\bin\debug\testesunitarios.dll" id="b8969a91-c360-ae7e-673a-fbd6943cb852">
+      <Execution id="0d3d9c0d-4bee-45e3-80cf-607bfbaad23a" />
+      <TestMethod codeBase="C:/P R O J E T O S/invertedor.com.br/invertedor.com.br/TestesUnitarios/bin/Debug/TestesUnitarios.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestesUnitarios.TestarMetodosDeDescriptografia, TestesUnitarios, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestarMeioInvertido" />
+    </UnitTest>
+    <UnitTest name="TestarHexa" storage="c:\p r o j e t o s\invertedor.com.br\invertedor.com.br\testesunitarios\bin\debug\testesunitarios.dll" id="1b3374db-294c-b5f8-e364-7ef1b035e7ba">
+      <Execution id="38d2ffca-1e2a-4814-9c08-8d1da3003d97" />
+      <TestMethod codeBase="C:/P R O J E T O S/invertedor.com.br/invertedor.com.br/TestesUnitarios/bin/Debug/TestesUnitarios.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestesUnitarios.TestarMetodosDeDescriptografia, TestesUnitarios, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestarHexa" />
+    </UnitTest>
+    <UnitTest name="TestarBase64" storage="c:\p r o j e t o s\invertedor.com.br\invertedor.com.br\testesunitarios\bin\debug\testesunitarios.dll" id="5a97860a-7eb3-7ea3-504e-39630befbc52">
+      <Execution id="49c4904c-d6ad-403d-ae06-28b2d1b13089" />
+      <TestMethod codeBase="C:/P R O J E T O S/invertedor.com.br/invertedor.com.br/TestesUnitarios/bin/Debug/TestesUnitarios.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestesUnitarios.TestarMetodosDeDescriptografia, TestesUnitarios, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestarBase64" />
+    </UnitTest>
+    <UnitTest name="TestarDescriptografarLinksInteiros" storage="c:\p r o j e t o s\invertedor.com.br\invertedor.com.br\testesunitarios\bin\debug\testesunitarios.dll" id="96674a6b-8014-d7b8-1ab1-407c737ccd0c">
+      <Execution id="07340d40-889f-4d74-8b18-a1a7c7db8310" />
+      <TestMethod codeBase="C:/P R O J E T O S/invertedor.com.br/invertedor.com.br/TestesUnitarios/bin/Debug/TestesUnitarios.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestesUnitarios.TestarMetodosDeDescriptografia, TestesUnitarios, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestarDescriptografarLinksInteiros" />
+    </UnitTest>
+    <UnitTest name="TestarInverter" storage="c:\p r o j e t o s\invertedor.com.br\invertedor.com.br\testesunitarios\bin\debug\testesunitarios.dll" id="4dc1ce62-917e-9d70-f434-c4647c1c48e5">
+      <Execution id="5e08dc16-93d2-416a-9222-eb330ff018ec" />
+      <TestMethod codeBase="C:/P R O J E T O S/invertedor.com.br/invertedor.com.br/TestesUnitarios/bin/Debug/TestesUnitarios.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestesUnitarios.TestarMetodosDeDescriptografia, TestesUnitarios, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestarInverter" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1b3374db-294c-b5f8-e364-7ef1b035e7ba" executionId="38d2ffca-1e2a-4814-9c08-8d1da3003d97" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4dc1ce62-917e-9d70-f434-c4647c1c48e5" executionId="5e08dc16-93d2-416a-9222-eb330ff018ec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="572c31f2-b4ae-52e7-e468-b7d27e31da3e" executionId="baabad96-1cc2-4db2-83bf-f1539909fb30" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5a97860a-7eb3-7ea3-504e-39630befbc52" executionId="49c4904c-d6ad-403d-ae06-28b2d1b13089" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="96674a6b-8014-d7b8-1ab1-407c737ccd0c" executionId="07340d40-889f-4d74-8b18-a1a7c7db8310" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b8969a91-c360-ae7e-673a-fbd6943cb852" executionId="0d3d9c0d-4bee-45e3-80cf-607bfbaad23a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="38d2ffca-1e2a-4814-9c08-8d1da3003d97" testId="1b3374db-294c-b5f8-e364-7ef1b035e7ba" testName="TestarHexa" computerName="HENRI-PC" duration="00:00:00.0614073" startTime="2011-09-12T19:43:36.0392061-03:00" endTime="2011-09-12T19:43:37.0212623-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="38d2ffca-1e2a-4814-9c08-8d1da3003d97">
+    </UnitTestResult>
+    <UnitTestResult executionId="5e08dc16-93d2-416a-9222-eb330ff018ec" testId="4dc1ce62-917e-9d70-f434-c4647c1c48e5" testName="TestarInverter" computerName="HENRI-PC" duration="00:00:00.0007693" startTime="2011-09-12T19:43:37.0422635-03:00" endTime="2011-09-12T19:43:37.0592645-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5e08dc16-93d2-416a-9222-eb330ff018ec">
+    </UnitTestResult>
+    <UnitTestResult executionId="baabad96-1cc2-4db2-83bf-f1539909fb30" testId="572c31f2-b4ae-52e7-e468-b7d27e31da3e" testName="TestarParImparInvertido" computerName="HENRI-PC" duration="00:00:00.0017605" startTime="2011-09-12T19:43:37.0632647-03:00" endTime="2011-09-12T19:43:37.0782656-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="baabad96-1cc2-4db2-83bf-f1539909fb30">
+    </UnitTestResult>
+    <UnitTestResult executionId="49c4904c-d6ad-403d-ae06-28b2d1b13089" testId="5a97860a-7eb3-7ea3-504e-39630befbc52" testName="TestarBase64" computerName="HENRI-PC" duration="00:00:00.0050377" startTime="2011-09-12T19:43:37.0822658-03:00" endTime="2011-09-12T19:43:37.1012669-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="49c4904c-d6ad-403d-ae06-28b2d1b13089">
+    </UnitTestResult>
+    <UnitTestResult executionId="07340d40-889f-4d74-8b18-a1a7c7db8310" testId="96674a6b-8014-d7b8-1ab1-407c737ccd0c" testName="TestarDescriptografarLinksInteiros" computerName="HENRI-PC" duration="00:00:00.1264030" startTime="2011-09-12T19:43:37.1152677-03:00" endTime="2011-09-12T19:43:37.2492753-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="07340d40-889f-4d74-8b18-a1a7c7db8310">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;True&gt;. Actual:&lt;False&gt;. http://www.baixarfilmeseseries.org/download/</Message>
+          <StackTrace>   at TestesUnitarios.TestarMetodosDeDescriptografia.TestarDescriptografarLinksInteiros() in C:\P R O J E T O S\invertedor.com.br\invertedor.com.br\TestesUnitarios\TestarMetodosDeDescriptografia.cs:line 133
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0d3d9c0d-4bee-45e3-80cf-607bfbaad23a" testId="b8969a91-c360-ae7e-673a-fbd6943cb852" testName="TestarMeioInvertido" computerName="HENRI-PC" duration="00:00:00.0090940" startTime="2011-09-12T19:43:37.2522755-03:00" endTime="2011-09-12T19:43:37.2912777-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0d3d9c0d-4bee-45e3-80cf-607bfbaad23a">
+    </UnitTestResult>
+  </Results>
+</TestRun>

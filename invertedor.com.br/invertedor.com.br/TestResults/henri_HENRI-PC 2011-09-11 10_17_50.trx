@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="abb4ff82-1309-4d76-ac20-6c6f0fb2a649" name="henri@HENRI-PC 2011-09-11 10:17:50" runUser="henri-PC\henri" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ee264f6e-f394-4bfe-ab1f-e6bcb46f86ba">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="henri_HENRI-PC 2011-09-11 10_17_50">
+      <DeploymentItem filename="C:\P R O J E T O S\invertedor.com.br\invertedor.com.br\invertedor.com.br\bin\invertedor.com.br.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-09-11T10:17:50.1258136-03:00" queuing="2011-09-11T10:17:52.7879659-03:00" start="2011-09-11T10:17:53.2109901-03:00" finish="2011-09-11T10:19:01.4128910-03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestarDescriptografarLinksInteiros" storage="c:\p r o j e t o s\invertedor.com.br\invertedor.com.br\testesunitarios\bin\debug\testesunitarios.dll" id="96674a6b-8014-d7b8-1ab1-407c737ccd0c">
+      <Execution id="7fcc9688-5ab8-42c1-b606-ba8e2d9381f0" />
+      <TestMethod codeBase="C:/P R O J E T O S/invertedor.com.br/invertedor.com.br/TestesUnitarios/bin/Debug/TestesUnitarios.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestesUnitarios.TestarMetodosDeDescriptografia, TestesUnitarios, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestarDescriptografarLinksInteiros" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="96674a6b-8014-d7b8-1ab1-407c737ccd0c" executionId="7fcc9688-5ab8-42c1-b606-ba8e2d9381f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7fcc9688-5ab8-42c1-b606-ba8e2d9381f0" testId="96674a6b-8014-d7b8-1ab1-407c737ccd0c" testName="TestarDescriptografarLinksInteiros" computerName="HENRI-PC" duration="00:01:05.6603274" startTime="2011-09-11T10:17:53.5620102-03:00" endTime="2011-09-11T10:19:01.1998788-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7fcc9688-5ab8-42c1-b606-ba8e2d9381f0">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;True&gt;. Actual:&lt;False&gt;. http://www.link-protegido.com/semprefilmesv2/?link=a16d==p=dmm8o/=&amp;p2=/:thtp/wwmgula.o/d9GY80861=?mcdopae.w</Message>
+          <StackTrace>   at TestesUnitarios.TestarMetodosDeDescriptografia.TestarDescriptografarLinksInteiros() in C:\P R O J E T O S\invertedor.com.br\invertedor.com.br\TestesUnitarios\TestarMetodosDeDescriptografia.cs:line 110
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
